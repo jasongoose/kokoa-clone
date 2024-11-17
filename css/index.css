@@ -8,6 +8,8 @@
 
 @import "nav-bar.css";
 
+@import "screen-header.css";
+
 body {
     font-family: "Open Sans", sans-serif;
 }
