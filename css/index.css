@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 @import "_reset.css";
 @import "_variables.css";
 
-@import "login/status-bar.css";
-@import "login/welcome-header.css";
-@import "login/login-form.css";
+@import "_components/nav-bar.css";
+@import "_components/screen-header.css";
+@import "_components/avatar.css";
 
-@import "nav-bar.css";
+@import "_components/status-bar.css";
+@import "_screens/login/welcome-header.css";
+@import "_screens/login/login-form.css";
 
-@import "screen-header.css";
+@import "_screens/friends/friends.css";
 
 body {
     font-family: "Open Sans", sans-serif;
