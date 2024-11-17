@@ -1,8 +1,12 @@
 .status-bar {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px 3px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
 }
 
 .status-bar__column:first-child > span {

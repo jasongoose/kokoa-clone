@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "_reset.css";
 @import "_variables.css";
+
 @import "login/status-bar.css";
 @import "login/welcome-header.css";
 @import "login/login-form.css";
+
+@import "nav-bar.css";
 
 body {
     font-family: "Open Sans", sans-serif;
