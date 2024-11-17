@@ -12,6 +12,7 @@
 @import "_screens/login.css";
 @import "_screens/friends.css";
 @import "_screens/chats.css";
+@import "_screens/find.css";
 
 body {
     font-family: "Open Sans", sans-serif;

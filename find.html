@@ -5,7 +5,7 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Chats</title>
+        <title>Find</title>
         <link rel="stylesheet" href="css/index.css">
         <script src="https://kit.fontawesome.com/48e7be1a20.js" crossorigin="anonymous"></script>
     </head>
@@ -28,7 +28,7 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
+            <h1 class="screen-header__title">Find</h1>
 
             <div class="screen-header__icons">
                 <ul class="screen-header__icons-list">
@@ -39,18 +39,7 @@
                     </li>
 
                     <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-regular fa-comment-dots fa-lg"></i>
-                        </span>
-                    </li>
-
-                    <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-solid fa-music fa-lg"></i>
-                        </span>
-                    </li>
-
-                    <li class="screen-header__icons-list-item">
+                        <span class="badge badge--dot screen-header__icons-list-item-notification"></span>
                         <span>
                             <i class="fa-solid fa-cog fa-lg"></i>
                         </span>
@@ -59,20 +48,62 @@
             </div>
         </header>
 
-        <main class="chats-screen">
-            <div class="avatar">
-                <div class="avatar__column">
-                    <img class="avatar__image" src="https://avatars.githubusercontent.com/u/50525846" alt="avatar-img" />
-                    <div class="avatar__text">
-                        <h4 class="avatar__title">KokoaTalk</h4>
-                        <h6 class="avatar__subtitle">Please check My Kakao Account Info</h6>
-                    </div>
+        <main class="find-screen">
+           <div class="find-icons">
+               <div class="find-icons__icon">
+                   <i class="fa-solid fa-qrcode"></i>
+                   <span>QR Code</span>
+               </div>
+
+               <div class="find-icons__icon">
+                   <i class="fa-regular fa-address-book"></i>
+                   <span>Add by Contacts</span>
+               </div>
+
+               <div class="find-icons__icon">
+                   <i class="fa-solid fa-fingerprint"></i>
+                   <span>Add by ID</span>
+               </div>
+
+               <div class="find-icons__icon">
+                   <i class="fa-regular fa-envelope"></i>
+                   <span>Invite</span>
+               </div>
+           </div>
+
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">Recommended Friends</h6>
+                <p class="recommended-friends__empty-text">You have no recommended friends.</p>
+            </div>
+
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4>Open Chat</h4>
+                    <span>
+                        Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i>
+                    </span>
                 </div>
 
-                <div class="avatar__column">
-                    <div class="avatar__notification">
-                        <span>21:22</span>
-                        <div class="badge badge--with-number">1</div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#BTS</h5>
+                        <h6 class="open-post__hashtags">#bts #army #friends</h6>
+
+                        <div class="open-post__members">
+                            <img class="open-post__profile" src="https://avatars.githubusercontent.com/u/50525846" alt="profile" />
+                            <span class="open-post__description">802 members | <span class="open-post__active-text">Active</span></span>
+                        </div>
+                    </div>
+
+                    <div class="open-post__column">
+                        <div class="open-post__cover">
+                            <img class="open-post__cover-image" src="https://avatars.githubusercontent.com/u/50525846" alt=""/>
+
+                            <div class="open-post__like">
+                                <i class="fa-regular fa-heart fa-xs"></i>
+                                <span class="open-post__like-count">326</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +120,7 @@
                 <li class="nav-bar__list-item">
                     <a class="nav-bar__list-item-link" href="chats.html">
                         <span class="badge badge--with-number nav-bar__list-item-notification">1</span>
-                        <i class="fa-solid fa-comment fa-lg"></i>
+                        <i class="fa-regular fa-comment fa-lg"></i>
                     </a>
                 </li>
 
