@@ -6,12 +6,12 @@
 @import "_components/nav-bar.css";
 @import "_components/screen-header.css";
 @import "_components/avatar.css";
-
 @import "_components/status-bar.css";
-@import "_screens/login/welcome-header.css";
-@import "_screens/login/login-form.css";
+@import "_components/badge.css";
 
-@import "_screens/friends/friends.css";
+@import "_screens/login.css";
+@import "_screens/friends.css";
+@import "_screens/chats.css";
 
 body {
     font-family: "Open Sans", sans-serif;

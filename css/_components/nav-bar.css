@@ -19,27 +19,7 @@
     position: relative;
 }
 
-.nav-bar__list-item-notification--with-number {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
-    position: absolute;
-    right: -10px;
-    top: -5px;
-}
-
-.nav-bar__list-item-notification--without-number {
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
+.nav-bar__list-item-notification {
     position: absolute;
     right: -10px;
     top: -5px;
