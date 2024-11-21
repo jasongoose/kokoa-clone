@@ -5,7 +5,7 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Find</title>
+        <title>More</title>
         <link rel="stylesheet" href="css/index.css">
         <script src="https://kit.fontawesome.com/48e7be1a20.js" crossorigin="anonymous"></script>
     </head>
@@ -28,13 +28,19 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Find</h1>
+            <h1 class="screen-header__title">More</h1>
 
             <div class="screen-header__icons">
                 <ul class="screen-header__icons-list">
                     <li class="screen-header__icons-list-item">
                         <span>
                             <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                        </span>
+                    </li>
+
+                    <li class="screen-header__icons-list-item">
+                        <span>
+                            <i class="fa-solid fa-music fa-lg"></i>
                         </span>
                     </li>
 
@@ -48,62 +54,74 @@
             </div>
         </header>
 
-        <main class="find-screen">
-
-           <div class="icon-row">
-               <div class="icon-row__icon">
-                   <i class="fa-solid fa-qrcode"></i>
-                   <span>QR Code</span>
-               </div>
-
-               <div class="icon-row__icon">
-                   <i class="fa-regular fa-address-book"></i>
-                   <span>Add by Contacts</span>
-               </div>
-
-               <div class="icon-row__icon">
-                   <i class="fa-solid fa-fingerprint"></i>
-                   <span>Add by ID</span>
-               </div>
-
-               <div class="icon-row__icon">
-                   <i class="fa-regular fa-envelope"></i>
-                   <span>Invite</span>
-               </div>
-           </div>
-
-            <div class="recommended-friends">
-                <h6 class="recommended-friends__title">Recommended Friends</h6>
-                <p class="recommended-friends__empty-text">You have no recommended friends.</p>
-            </div>
-
-            <div class="open-chat">
-                <div class="open-chat__header">
-                    <h4>Open Chat</h4>
-                    <span>
-                        Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i>
-                    </span>
+        <main class="more-screen">
+            <div class="avatar">
+                <div class="avatar__column">
+                    <img class="avatar__image" src="https://avatars.githubusercontent.com/u/50525846" alt="avatar-img" />
+                    <div class="avatar__text">
+                        <h4 class="avatar__title">KokoaTalk</h4>
+                        <h6 class="avatar__subtitle">+1 787-493-4219 <i class="fa-solid fa-circle-exclamation"></i></h6>
+                    </div>
                 </div>
 
-                <div class="open-post">
-                    <div class="open-post__column">
-                        <h5 class="open-post__title">#BTS</h5>
-                        <h6 class="open-post__hashtags">#bts #army #friends</h6>
+                <div class="avatar__column">
+                    <i class="fa-regular fa-message fa-2x"></i>
+                </div>
+            </div>
 
-                        <div class="open-post__members">
-                            <img class="open-post__profile" src="https://avatars.githubusercontent.com/u/50525846" alt="profile" />
-                            <span class="open-post__description">802 members | <span class="open-post__active-text">Active</span></span>
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>Calendar</span>
+                </div>
+
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <span>Emoticons</span>
+                </div>
+
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-paint-roller"></i>
+                    <span>Themes</span>
+                </div>
+
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>Account</span>
+                </div>
+            </div>
+
+            <div class="more-suggestions">
+                <h4 class="more-suggestions__title">Suggestions</h4>
+
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-solid fa-quote-right fa-2x"></i>
+                        </div>
+
+                        <div class="more-suggestions__icon-text">
+                            Kokoa Story
                         </div>
                     </div>
 
-                    <div class="open-post__column">
-                        <div class="open-post__cover">
-                            <img class="open-post__cover-image" src="https://avatars.githubusercontent.com/u/50525846" alt=""/>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-brands fa-earlybirds fa-2x"></i>
+                        </div>
 
-                            <div class="open-post__like">
-                                <i class="fa-regular fa-heart fa-xs"></i>
-                                <span class="open-post__like-count">326</span>
-                            </div>
+                        <div class="more-suggestions__icon-text">
+                            Kokoa Friends
+                        </div>
+                    </div>
+
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-regular fa-gem fa-2x"></i>
+                        </div>
+
+                        <div class="more-suggestions__icon-text">
+                            Friends Gem
                         </div>
                     </div>
                 </div>
