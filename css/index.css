@@ -26,3 +26,9 @@ body {
 main {
     padding: var(--screen-padding);
 }
+
+.top-fixed {
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
