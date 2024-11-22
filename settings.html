@@ -5,7 +5,7 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Chats | Kokoa Clone</title>
+        <title>Settings | Kokoa Clone</title>
         <link rel="stylesheet" href="css/index.css">
         <script src="https://kit.fontawesome.com/48e7be1a20.js" crossorigin="anonymous"></script>
     </head>
@@ -27,57 +27,50 @@
             </div>
         </div>
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
+        <header class="alt-screen-header">
+            <div class="alt-screen-header__column">
+                <a href="more.html">
+                    <i class="fa-solid fa-angle-left fa-lg"></i>
+                </a>
+            </div>
 
-            <div class="screen-header__icons">
-                <ul class="screen-header__icons-list">
-                    <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                        </span>
-                    </li>
+            <div class="alt-screen-header__column">
+                <h1 class="alt-screen-header__title">Settings</h1>
+            </div>
 
-                    <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-regular fa-comment-dots fa-lg"></i>
-                        </span>
-                    </li>
-
-                    <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-solid fa-music fa-lg"></i>
-                        </span>
-                    </li>
-
-                    <li class="screen-header__icons-list-item">
-                        <span>
-                            <i class="fa-solid fa-cog fa-lg"></i>
-                        </span>
-                    </li>
-                </ul>
+            <div class="alt-screen-header__column">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             </div>
         </header>
 
-        <main class="chats-screen">
-            <a href="chat.html">
-                <div class="avatar">
-                    <div class="avatar__column">
-                        <img class="avatar__image" src="https://avatars.githubusercontent.com/u/50525846" alt="avatar-img" />
-                        <div class="avatar__text">
-                            <h4 class="avatar__title">KokoaTalk</h4>
-                            <h6 class="avatar__subtitle">Please check My Kakao Account Info</h6>
-                        </div>
+        <main class="settings-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Notices</span>
                     </div>
+                    <div class="settings__setting-column"></div>
+                </li>
 
-                    <div class="avatar__column">
-                        <div class="avatar__notification">
-                            <span>21:22</span>
-                            <div class="badge badge--with-number">1</div>
-                        </div>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fa-solid fa-flask"></i>
+                        <span>Kakao Lab</span>
                     </div>
-                </div>
-            </a>
+                    <div class="settings__setting-column"></div>
+                </li>
+
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Version</span>
+                    </div>
+                    <div class="settings__setting-column">
+                        Latest Version
+                    </div>
+                </li>
+            </ul>
         </main>
 
         <nav class="nav-bar">
@@ -91,7 +84,7 @@
                 <li class="nav-bar__list-item">
                     <a class="nav-bar__list-item-link" href="chats.html">
                         <span class="badge badge--with-number nav-bar__list-item-notification">1</span>
-                        <i class="fa-solid fa-comment fa-lg"></i>
+                        <i class="fa-regular fa-comment fa-lg"></i>
                     </a>
                 </li>
 

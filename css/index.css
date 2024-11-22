@@ -9,12 +9,14 @@
 @import "_components/status-bar.css";
 @import "_components/badge.css";
 @import "_components/icon-row.css";
+@import "_components/alt-screen-header.css";
 
 @import "_screens/login.css";
 @import "_screens/friends.css";
 @import "_screens/chats.css";
 @import "_screens/find.css";
 @import "_screens/more.css";
+@import "_screens/settings.css";
 
 body {
     font-family: "Open Sans", sans-serif;
