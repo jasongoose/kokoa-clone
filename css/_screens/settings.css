@@ -1,7 +1,3 @@
-.settings-screen {
-    padding: var(--screen-padding);
-}
-
 .settings__setting {
     display: flex;
     align-items: center;

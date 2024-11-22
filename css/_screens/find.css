@@ -1,24 +1,3 @@
-.find-screen {
-    padding: var(--screen-padding);
-}
-
-/*.find-icons {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    padding-bottom: var(--horizontal-space);*/
-/*}*/
-
-/*.find-icons__icon {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    gap: 15px;*/
-/*}*/
-
-/*.find-icons__icon i {*/
-/*    font-size: 35px;*/
-/*}*/
-
 .recommended-friends {
     border-top: var(--main-border);
     border-bottom: var(--main-border);
