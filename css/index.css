@@ -10,6 +10,7 @@
 @import "_components/badge.css";
 @import "_components/icon-row.css";
 @import "_components/alt-screen-header.css";
+@import "_components/no-mobile.css";
 
 @import "_screens/login.css";
 @import "_screens/friends.css";
