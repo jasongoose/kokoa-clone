@@ -1,4 +1,5 @@
 .alt-screen-header {
+    width: 100%;
     padding: 40px var(--horizontal-space) 0;
     margin-bottom: 15px;
     display: flex;
@@ -13,4 +14,10 @@
 
 .alt-screen-header__column:nth-child(2) {
     margin: auto;
+}
+
+.alt-screen-header__column:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
