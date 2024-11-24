@@ -1,7 +1,6 @@
 .alt-screen-header {
     width: 100%;
-    padding: 40px var(--horizontal-space) 0;
-    margin-bottom: 15px;
+    padding: 40px var(--horizontal-space) 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;

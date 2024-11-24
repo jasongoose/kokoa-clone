@@ -8,6 +8,10 @@
     background-color: #abc1d1;
 }
 
+#chat-screen .alt-screen-header {
+    z-index: 1;
+}
+
 #chat-screen .status-bar {
     z-index: 2;
 }
@@ -84,4 +88,63 @@
 
 .message-row--own .message__info {
     flex-direction: row-reverse;
+}
+
+.reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.reply input {
+    height: 30px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.reply__column:first-child {
+    width: 10%;
+}
+
+.reply__column:first-child i {
+    opacity: 0.2;
+}
+
+.reply__column:last-child {
+    width: 90%;
+    position: relative;
+}
+
+.reply-util {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 2px;
+    right: -10px;
+}
+
+.reply-util > i {
+    opacity: 0.2;
+}
+
+.reply-util__send-button {
+    background-color: var(--yellow);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.reply-util__send-button:focus,
+.reply-util__send-button:active {
+    outline: none;
 }
