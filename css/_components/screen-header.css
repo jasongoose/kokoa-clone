@@ -27,3 +27,17 @@
     right: -5px;
     top: -5px;
 }
+
+@keyframes rotateCogAnimation {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons-list-item .fa-cog {
+    animation: rotateCogAnimation 3s linear infinite;
+}
