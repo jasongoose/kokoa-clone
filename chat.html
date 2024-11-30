@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chat | Kokoa Clone</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/48e7be1a20.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar top-fixed">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+
+            <div class="status-bar__column">
+                <span>18:45</span>
+            </div>
+
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+
+        <header class="alt-screen-header top-fixed">
+            <div class="alt-screen-header__column">
+                <a href="more.html">
+                    <i class="fa-solid fa-angle-left fa-lg"></i>
+                </a>
+            </div>
+
+            <div class="alt-screen-header__column">
+                <h1 class="alt-screen-header__title">Nicolas Serrano</h1>
+            </div>
+
+            <div class="alt-screen-header__column">
+                    <span>
+                        <i class="fa-solid fa-search fa-lg"></i>
+                    </span>
+                <span>
+                        <i class="fa-solid fa-bars fa-lg"></i>
+                    </span>
+            </div>
+        </header>
+
+        <main class="chat-screen">
+            <div class="chat__time-stamp">
+                <span>Tuesday, June 30, 2020</span>
+            </div>
+
+            <div class="message-list">
+                <div class="message-row">
+                    <img src="https://avatars.githubusercontent.com/u/50525846" alt="">
+                    <div class="message-row__content">
+                        <span class="message__author">Nicolas</span>
+                        <div class="message__info">
+                            <span class="message__bubble">Hi!</span>
+                            <span class="message__time">21:27</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="message-row--own">
+                    <div class="message-row__content">
+                        <div class="message__info">
+                            <span class="message__bubble">Hi!</span>
+                            <span class="message__time">21:27</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="reply" action="">
+                <div class="reply__column">
+                    <i class="fa-regular fa-square-plus fa-xl"></i>
+                </div>
+
+                <div class="reply__column">
+                    <input type="text" name="" id="" placeholder="Write your message" />
+
+                    <div class="reply-util">
+                        <i class="fa-regular fa-face-smile fa-lg"></i>
+                        <button class="reply-util__send-button">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <div id="no-mobile">
+            Your Screen is too big
+        </div>
+    </body>
+</html>
